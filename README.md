@@ -1,0 +1,2 @@
+# Registration
+Flexible registration page
