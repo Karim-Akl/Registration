@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    background-color: rgba(9, 9, 144, 0.613);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: rgba(0, 0, 255, 0.645);
+    width: 80%;
+    margin: auto;
+    padding:10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+form input{
+    width: 100%;
+    background-color: #2d16a4c6;
+    color: white;
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+form button{
+    border: none;
+    background-color: rgba(5, 5, 64, 0.843);
+    outline: none;
+    color: rgba(248, 248, 249, 0.253);
+    flex-grow: 1;
+    padding: 5px 10px;
+    flex-basis: 30px;
+}
